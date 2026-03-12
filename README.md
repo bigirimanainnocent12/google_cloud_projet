@@ -200,7 +200,7 @@ SQL/CompetitiveInsights.sql
 ### 6. Deployer le DAG Airflow (Cloud Composer)
 
 ```bash
-gsutil cp chiens/workflow.py gs://<votre-bucket-composer>/dags/
+gcloud compser environnements storage dags import -- environnment < nom de l'environnment>  --location <location> --source dags/workflow.py 
 ```
 
 ---

@@ -223,6 +223,4 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ---
 
-## Licence
 
-Ce projet est sous licence MIT — voir le fichier LICENSE pour plus de details.

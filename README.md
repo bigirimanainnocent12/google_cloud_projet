@@ -2,7 +2,7 @@
 
 Architecture ELT industrielle sur GCP — Ingestion, chargement et transformation de plus de 150 millions de trajets NYC TLC pour l'analyse predictive et le pilotage strategique sur Power BI.
 
-Stack : Python 3.10+ | Google Cloud Platform | BigQuery | Cloud Composer (Airflow) | Power BI
+Stack : Python | Google Cloud Platform | BigQuery | Cloud Composer (Airflow) 
 
 ---
 
@@ -38,7 +38,7 @@ Toutes les etapes sont orchestrees par Cloud Composer (Apache Airflow)
 ```
 nyc-taxi-data-pipeline/
 |
-|-- chiens/
+|-- dags/
 |   `-- workflow.py                        # DAG Airflow — orchestration du pipeline complet
 |
 |-- scripts/

@@ -149,16 +149,15 @@ WHERE passenger_count > 0
 
 ### Prerequis
 
-- Projet Google Cloud avec facturation activee
+- Projet Google Cloud 
 - APIs activees : BigQuery, Cloud Storage, Cloud Composer
 - gcloud CLI configure
-- Python 3.10+
+- Python 
 
 ### 1. Cloner le depot
 
 ```bash
-git clone https://github.com/<votre-username>/nyc-taxi-data-pipeline.git
-cd nyc-taxi-data-pipeline
+git clone https://github.com/bigirimanainnocent12/google_cloud_projet
 ```
 
 ### 2. Installer les dependances
